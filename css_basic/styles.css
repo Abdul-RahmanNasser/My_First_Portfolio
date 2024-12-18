@@ -4,19 +4,24 @@ body, main{
 
 body {
     flex-direction: column;
+    background-color: rgb(93, 151, 93);
 }
 
 main {
     flex-direction: row;
     flex: auto;
+    background-color: burlywood;
 }
 
 article, aside {
     overflow-y: auto;
+    text-align: center;
+
 }
 
 article {
     flex: 2;
+    background-color: cadetblue;
 }
 
 aside {
